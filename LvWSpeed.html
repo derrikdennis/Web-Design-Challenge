@@ -1,7 +1,7 @@
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
-        <title>Latitude vs Cloudiness</title>
+        <title>Latitude vs Wind Speed</title>
         <meta name="Latitude Analysis" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -55,21 +55,27 @@
           <div class="row">
             <div class="col-lg-8">
               <div class="box">        
-                <h1>Summary: Latitude vs. Cloudiness</h1>
+                <h1>Summary: Latitude vs.Wind Speed</h1>
                 <br>
-                <h2>Are you kidding me?  This probably shouldn't have even been made</h2>
-                <img src="Visualizations/Lat_vs_Cloud.png" class="mx-auto d-block" alt="Latitude vs Cloudiness">
+                <h2>Absolutely No Correlation</h2>
+                <img src="Visualizations/Lat_vs_WSpeed_.png" class="mx-auto d-block" alt="Latitude vs Cloudiness">
                 <br>
-                <p>Here's why:have a look at the chart.  Yes, there are plots acoss at various percentages of cloud cover. But there are 5 distinct lines of points on this chart:</p>
+                <p>Since there is no correlation, let's discuss something more interesting: temperature, max temperature, and min temperature.
+                  Max temperature is <strong>NOT</strong> the maximum temperature for the day.  The same applies to min temperature.  Those two temperatures 
+                  are answering the question, "At this particular moment, what is the maximum (or minumum) temperture for that location?"
+                </p>
+                <p>You might be thinking, shouldn't they all be the same.  The answer, of course, is no. Many coastal cities with hilly basins are subject a condition called microclimates. San Francisco is a prime example of this occurring. Mark Twain never said it, but there is a quote that states, "The coldest winter I ever spent was a summer in San Francisco." On a typical Wednesday in June at 3PM, depending on where you were at in the city, the temperature you would feel could wildly different.</p>
                 <ul>
-                  <li>At 20%</li>
-                  <li>At 40%</li>
-                  <li>At 75%</li>
-                  <li>At 90%</li>
-                  <li>At 100%</li>
+                  <li>You could be at Oracle Park in China Basin enjoying a Giants game during the day. It's sunny, 80 degrees.</li>
+                  <li>You could be in Glen Park shielded by the straight line coastal wind, but experience a temperature in the 60s.</li>
+                  <li>Or you could be visiting the Sutro Bath ruins on the Pacific Coast. Temperature there? 52 degrees.</li>
                 </ul>
-                <p>Cloud cover is probably the most subjective meteorological condtion there is. In addition, there is significant rounding errors to a general percentage</p>
-                <p>It does make for a cool chart though.</p>
+                  <p>On this day at this time, you might see the following conditions:</p>
+                <ul>
+                  <li>Temperature - 64 degrees</li>
+                  <li>Maximum Temperature - 80 degrees</li>
+                  <li>Minimum Temperature - 52 degrees</li>
+                </ul>
               </div>
             </div>
             <div class="col-lg-4">
@@ -96,8 +102,9 @@
                       </a>
                     </div>
                     <div class="col-md-6 viz_margin">
-                      <a href="LvWSpeed.html"></a>
+                      <a href="LvWSpeed.html">
                       <img class="home_page_right_png" src="Visualizations/Lat_vs_WSpeed_.png" alt="Latitude vs Wind Speed">
+                      </a>
                     </div>
                   </div>
               </div>

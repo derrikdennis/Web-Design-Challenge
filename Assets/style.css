@@ -21,6 +21,10 @@ a{
     font-size: 20px;
 }
 
+thead{
+    background-color: #7389AE;
+}
+
 /*this section of the CSS code will change Bootstrap eleemnts */
 .navbar-brand{
     font-size: 40px;
@@ -59,6 +63,11 @@ a{
 
 .viz_margin {
     margin-top: 10px;
+}
+.dataframe {
+        background-color: #e0e0e2;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 #home_page_left_png{
