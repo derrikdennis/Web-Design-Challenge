@@ -1,10 +1,10 @@
-/*Changes made here are those I wasn't able to make in bootstrap*/
+/*This section of the CSS code will modify items associated with HTML tags */
 body {
     background-color: #b5bad0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-h1 {
+h1,h2 {
     color: #003366;
     text-align:center;
     font-weight: bold;
@@ -21,27 +21,18 @@ a{
     font-size: 20px;
 }
 
+/*this section of the CSS code will change Bootstrap eleemnts */
 .navbar-brand{
     font-size: 40px;
     font-weight: bolder;
     color: #e0e0e2;
     margin-left: 100px;
 }
-
-.text_gainsboro{
-    color: #e0e0e2;
-}
-
-.navigation_color{
+.navbar{
     background-color: #003366;
 }
 
-
-.border_white{
-    border-color: white;
-}
-
-.local_box_changes{
+.box{
     background-color: #8ad2c7 ;
     padding: 5%;
     border: 2px solid #7389AE;
@@ -49,15 +40,16 @@ a{
     margin-top: 80px;
 }
 
+/* This section of the CSS Code will modify classes set by me, the dwsigner of this website */
+
 .responsive{
     width: 100%;
     max-width: 300px;
     height: auto;
 }
 
-#home_page_left_png{
-    float: left;
-    padding: 5px;
+.summary_left_png{
+    align-content: center;
 }
 
 .home_page_right_png {
@@ -67,4 +59,9 @@ a{
 
 .viz_margin {
     margin-top: 10px;
+}
+
+#home_page_left_png{
+    float: left;
+    padding: 5px;
 }

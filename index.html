@@ -21,8 +21,8 @@
         <link rel="stylesheet" href="Assets/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-md navigation_color">
-            <a class="navbar-brand" id="Lattitude" href="#">Lattitude</a>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" id="Lattitude" href="index.html">Lattitude</a>
             <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -30,20 +30,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Plots
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="LvTemp.html">Latitude vs Temp</a>
                     <a class="dropdown-item" href="LvCloud.html">Latitude vs Cloudiness</a>
                     <a class="dropdown-item" href="LvHumid.html">Latitude vs Humidity</a>
-                    <a class="dropdown-item" href="LvWSped.html";'lp.border_white']
-                    
-                    >Latitude vs Wind Speed</a>
+                    <a class="dropdown-item" href="LvWSpeed.html">Latitude vs Wind Speed</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-white" href="Visualizations/city_data.html">Comparisons</a>
+                  <a class="nav-link text-white" href="compariso.html">Comparisons</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-white" href="Visualizations/city_data.html">Data</a>
@@ -52,45 +50,54 @@
             </div>
           </nav>
         <br>
-        <div class="dark-grey">
         <div class="container">
           <!--Normally these medium columns go full wide on small screen sizes-->
           <div class="row">
             <div class="col-lg-8">
-              <div class="box local_box_changes">        
+              <div class="box">        
                 <h1>Summary: Latitude vs. X</h1>
                 <br>
                 <img id="home_page_left_png" class="responsive" src="Visualizations/Lat_vs_Temp.png" alt="Latitude vs Temp">
-                <P>The purpose of this project was to analyze how weather changes as you get closer to the equator.
-                   To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities</p>
-                <p>After assembling the dataset, we used MatPlotLib to plot various aspects of the weather vs. latitude. Factors we looked at included:</p>
+                <P>The purpose of this project was to analyze correlations between a city's particular meteorological condtions versus their proximity to the equator.</p>
+                <p>I was given a csv file of over 500 cities along their weather taken in 2017. I reran the data using information from the OpenWeatherMap API.
+                   I then use MatPlotLib to create scatterplots to look at a city's latitude across the following factors:
+                </p>
                 <ul>
                     <li>temperature</li>
                     <li>cloudiness</li>
                     <li>wind speed</li>
                     <li>humidity</li>
                 </ul>
-                <p>This site provides the source data and visualizations created as part of the analysis,
-                as well as explanations and descriptions of any trends and correlations witnessed</p></div>
+                <p>Only one of factors had a correlation between itself and the latitude of the city.  I'll let you guess which one is and provide the answer on that page.</p>
+                  I did modify the charts from the visualization samples given us.  On the other three that absolutely no correlation, I'll talk about these modifications that I've made.</p>
+                <p>Finally, I have provided a comparisons alone with a page containing the data that I pulled.</p>
+              </div>
             </div>
             <div class="col-lg-4">
               <div class="container">
-                <div class="box local_box_changes">
+                <div class="box">
                   <h1>Visualizations</h1>
                   <br>
                   <div class="row">
                     <div class="col-md-6 viz_margin">
-                      <img class="home_page_right_png" src="Visualizations/Lat_vs_Temp.png" alt="Latitude vs Temp">
+                      <a href="LvTemp.html">
+                        <img class="home_page_right_png" src="Visualizations/Lat_vs_Temp.png" alt="Latitude vs Temp">
+                      </a>
                     </div>
                     <div class="col-md-6 viz_margin">
-                      <img class="home_page_right_png" src="Visualizations/Lat_vs_Cloud.png" alt="Latitude vs Cloudiness">
+                      <a href="LvCloud.html">
+                        <img class="home_page_right_png" src="Visualizations/Lat_vs_Cloud.png" alt="Latitude vs Cloudiness">
+                      </a>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-md-6 viz_margin">
-                      <img class="home_page_right_png" src="Visualizations/Lat_vs_Humidity.png" alt="Latitude vs Humidity">
+                      <a href="LvHumid.html">
+                        <img class="home_page_right_png" src="Visualizations/Lat_vs_Humidity.png" alt="Latitude vs Humidity">
+                      </a>
                     </div>
                     <div class="col-md-6 viz_margin">
+                      <a href="LvWSpeed.html"></a>
                       <img class="home_page_right_png" src="Visualizations/Lat_vs_WSpeed_.png" alt="Latitude vs Wind Speed">
                     </div>
                   </div>
