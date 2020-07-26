@@ -131,3 +131,4 @@ dmypy.json
 #Additional files/folders to add to .gitignore
 Instructions/
 api_keys.py
+.vscode/

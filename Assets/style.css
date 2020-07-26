@@ -1,3 +1,70 @@
-#home_page_png {
-    width: 45%;
+/*Changes made here are those I wasn't able to make in bootstrap*/
+body {
+    background-color: #b5bad0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: #003366;
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p, ul {
+    color: #003366;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color : #e0e0e2;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #e0e0e2;
+    margin-left: 100px;
+}
+
+.text_gainsboro{
+    color: #e0e0e2;
+}
+
+.navigation_color{
+    background-color: #003366;
+}
+
+
+.border_white{
+    border-color: white;
+}
+
+.local_box_changes{
+    background-color: #8ad2c7 ;
+    padding: 5%;
+    border: 2px solid #7389AE;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.responsive{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#home_page_left_png{
+    float: left;
+    padding: 5px;
+}
+
+.home_page_right_png {
+    width: 100%;
+    height: auto;
+}
+
+.viz_margin {
+    margin-top: 10px;
 }
