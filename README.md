@@ -10,7 +10,7 @@ The webpage for this project can be found at <https://derrikdennis.github.io/Web
 Data is more powerful when we share it with others!  In this assignment, I am taking the information received in the Python-API challenege, updating it and putting it into a webpage!
 
 
-## Website requirements
+## Website Requirements
 
 The website must consist of the seven pages total, including:
 
@@ -38,6 +38,17 @@ The website must consist of the seven pages total, including:
   * Displays a responsive table containg the data used in the visualizations.
   * The table must be a bootstrap table component
   * The data must come from exporting the `.csv` file as HTML.
+
+## Navigation Requirements
+
+The website must, at the top of every page, have a navigation menu that:
+
+* Has the name of the site on the left of the nva which allows users to return to the landing page.
+* Contains a dropdown on the right of the navbar named "Plots" which provides links to each of the visualization pages
+* Provides two more links on the right: "Comparisons" which links to the comparisons page and "Data" which links to the data page
+* Is responsive.  The nav must have similar behavior as the pages
+
+
 
 
 ## Results
