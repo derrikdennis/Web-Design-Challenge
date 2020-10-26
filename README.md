@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Web Visualization Dashboard - Web-Design-Challenge
 
 In this challenege, we were assigned to create a webpage
 
