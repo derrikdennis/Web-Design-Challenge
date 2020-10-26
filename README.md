@@ -19,10 +19,10 @@ The website must consist of the seven pages total, including:
   * Links to each visualization page.
 
 * Four visualization pages:
-  * [Latitude vs temperature](#latitude-vs-temp)
-  * [Latitude vs cloudiness](#latitiude-vs-cloud)
-  * [Latitude vs Humidity](#latitude-vs-humid)
-  * [Latitude vs Wind Speed](#latitude-vs-wind)
+  * [Latitude vs temperature](https://derrikdennis.github.io/Web-Design-Challenge/LvTemp.html)
+  * [Latitude vs cloudiness](https://derrikdennis.github.io/Web-Design-Challenge/LvCloud.html)
+  * [Latitude vs Humidity](https://derrikdennis.github.io/Web-Design-Challenge/LvHumid.html)
+  * [Latitude vs Wind Speed](https://derrikdennis.github.io/Web-Design-Challenge/LvWSpeed.html)
   * Each must have the following:
     * A descriptive title and heading tag
     * The plot/visualization itself for the selected comparison
