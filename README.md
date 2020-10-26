@@ -1,5 +1,11 @@
-# Web Visualization Dashboard - Web-Design-Challenge
+# Web Visualization Dashboard - Web-Design-Challenge <!-- omit in toc -->
 
+- [Webpage](#webpage)
+- [Background](#background)
+- [Website Requirements](#website-requirements)
+- [Navigation Requirements](#navigation-requirements)
+- [Deployment Requirements](#deployment-requirements)
+- [Results](#results)
 
 ## Webpage
 
