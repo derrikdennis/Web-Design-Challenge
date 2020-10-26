@@ -9,6 +9,21 @@ Data is more powerful when we share it with others!  In this assignment, I am ta
 
 The website must consist of the seven pages total, including:
 
+* A[landing page](#landing-page) containing:
+  * An explanation of the project
+  * Links to each visualization page.
+
+* Four visualization pages:
+  * [Latitude vs temperature](#latitude-vs-temp)
+  * [Latitude vs cloudiness](#latitiude-vs-cloud)
+  * [Latitude vs Humidity](#latitude-vs-humid)
+  * [Latitude vs Wind Speed](#latitude-vs-wind)
+  * Each must have the following:
+    * A descriptive title and heading tag
+    * The plot/visualization itself for the selected comparison
+    * A paragraph descriing the plot and its significance.
+
+
 
 In this challenege, we were assigned to create a webpage
 
