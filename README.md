@@ -1,5 +1,10 @@
 # Web Visualization Dashboard - Web-Design-Challenge
 
+
+## Webpage
+
+The webpage for this project can be found at <https://derrikdennis.github.io/Web-Design-Challenge>
+
 ## Background
 
 Data is more powerful when we share it with others!  In this assignment, I am taking the information received in the Python-API challenege, updating it and putting it into a webpage!
@@ -35,8 +40,6 @@ The website must consist of the seven pages total, including:
   * The data must come from exporting the `.csv` file as HTML.
 
 
-In this challenege, we were assigned to create a webpage
+## Results
 
-Please goto: <https://derrikdennis.github.io/Web-Design-Challenge>  to check it out!
-
-Yes, this is a short README file - I'll let the website do the talking.
+Please go to[the results](https://derrikdennis.github.io/Web-Design-Challenge) to see the final product!
