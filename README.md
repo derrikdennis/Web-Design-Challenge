@@ -23,6 +23,16 @@ The website must consist of the seven pages total, including:
     * The plot/visualization itself for the selected comparison
     * A paragraph descriing the plot and its significance.
 
+* A ["Comparisons" page](#comparisons-page) that:
+  * Contains all of the visualizations on the same page so we can easily compare them.
+  * Uses a bootstrap grid for he visualizations.
+    * he grid must be twi visualizations across screens medium and large and one across small and extra small
+
+
+* A ["Data" page](#data-page) that:
+  * Displays a responsive table containg the data used in the visualizations.
+  * The table must be a bootstrap table component
+  * The data must come from exporting the `.csv` file as HTML.
 
 
 In this challenege, we were assigned to create a webpage
