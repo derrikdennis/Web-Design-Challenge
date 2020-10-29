@@ -1,15 +1,12 @@
-# Web Visualization Dashboard - Web-Design-Challenge <!-- omit in toc -->
+# Web Visualization Dashboard - Web Design Challenge <!-- omit in toc -->
 
-- [Webpage](#webpage)
+## Table of Contents <!-- omit in toc -->
 - [Background](#background)
 - [Website Requirements](#website-requirements)
 - [Navigation Requirements](#navigation-requirements)
 - [Deployment Requirements](#deployment-requirements)
 - [Results](#results)
 
-## Webpage
-
-The webpage for this project can be found at <https://derrikdennis.github.io/Web-Design-Challenge>
 
 ## Background
 
